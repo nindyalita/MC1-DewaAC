@@ -8,9 +8,9 @@
 import SwiftUI
 
 struct ContentView: View {
+    let dispatchQueue = DispatchQueue(label: "update", qos: .background)
     
     @StateObject var questions : Questions
-    
     
     var body: some View{
         HStack{
@@ -98,8 +98,11 @@ struct ContentView: View {
                                     guard let url = value else{return}
                                     
                                     if String(item.id) == "\(url)" {
-//                                        questions.setShowingOf(item: item)
-                                        item.isShowing = false
+                                        
+                                        dispatchQueue.async{
+                                          //Time consuming task here
+                                            DispatchQueue.main.async{ item.isShowing = false }
+                                        }
                                     }
                                 }
                             }

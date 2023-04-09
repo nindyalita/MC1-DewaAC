@@ -8,10 +8,10 @@
 import Foundation
 
 
-class Question : ObservableObject{
-    var id = UUID().uuidString
-    let soal : String
-    let jawaban: Int
+class Question : ObservableObject, Identifiable{
+    @Published var id = UUID().uuidString
+    @Published var soal : String
+    @Published var jawaban: Int
     @Published var isShowing : Bool
     
     init(id: String = UUID().uuidString, soal: String, jawaban: Int, isShowing: Bool = true) {
