@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16082D1F29D8299D00DDA7CC /* Dewa_ACApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16082D1E29D8299D00DDA7CC /* Dewa_ACApp.swift */; };
+		16082D2129D8299D00DDA7CC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16082D2029D8299D00DDA7CC /* ContentView.swift */; };
+		16082D2329D8299E00DDA7CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16082D2229D8299E00DDA7CC /* Assets.xcassets */; };
+		16082D2629D8299E00DDA7CC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16082D2529D8299E00DDA7CC /* Preview Assets.xcassets */; };
+		166DAA6729DC6449008A0A33 /* WinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 166DAA6629DC6449008A0A33 /* WinView.swift */; };
+		166DAA6929DC6DD4008A0A33 /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 166DAA6829DC6DD4008A0A33 /* StartView.swift */; };
+		1680570C29DC5A9B00322A72 /* SF-Compact-Rounded-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1680570329DC5A9B00322A72 /* SF-Compact-Rounded-Bold.otf */; };
+		1680570D29DC5A9B00322A72 /* SF-Compact-Rounded-Ultralight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1680570429DC5A9B00322A72 /* SF-Compact-Rounded-Ultralight.otf */; };
+		1680570E29DC5A9B00322A72 /* SF-Compact-Rounded-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1680570529DC5A9B00322A72 /* SF-Compact-Rounded-Black.otf */; };
+		1680570F29DC5A9B00322A72 /* SF-Compact-Rounded-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1680570629DC5A9B00322A72 /* SF-Compact-Rounded-Light.otf */; };
+		1680571029DC5A9B00322A72 /* SF-Compact-Rounded-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1680570729DC5A9B00322A72 /* SF-Compact-Rounded-Regular.otf */; };
+		1680571129DC5A9B00322A72 /* SF-Compact-Rounded-Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1680570829DC5A9B00322A72 /* SF-Compact-Rounded-Heavy.otf */; };
+		1680571229DC5A9B00322A72 /* SF-Compact-Rounded-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1680570929DC5A9B00322A72 /* SF-Compact-Rounded-Medium.otf */; };
+		1680571329DC5A9B00322A72 /* SF-Compact-Rounded-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1680570A29DC5A9B00322A72 /* SF-Compact-Rounded-Thin.otf */; };
+		1680571429DC5A9B00322A72 /* SF-Compact-Rounded-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1680570B29DC5A9B00322A72 /* SF-Compact-Rounded-Semibold.otf */; };
+		1680572129DC5BE900322A72 /* SF-Mono-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1680571529DC5BE900322A72 /* SF-Mono-MediumItalic.otf */; };
+		1680572229DC5BE900322A72 /* SF-Mono-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1680571629DC5BE900322A72 /* SF-Mono-Regular.otf */; };
+		1680572329DC5BE900322A72 /* SF-Mono-SemiboldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1680571729DC5BE900322A72 /* SF-Mono-SemiboldItalic.otf */; };
+		1680572429DC5BE900322A72 /* SF-Mono-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1680571829DC5BE900322A72 /* SF-Mono-Semibold.otf */; };
+		1680572529DC5BE900322A72 /* SF-Mono-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1680571929DC5BE900322A72 /* SF-Mono-Light.otf */; };
+		1680572629DC5BE900322A72 /* SF-Mono-RegularItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1680571A29DC5BE900322A72 /* SF-Mono-RegularItalic.otf */; };
+		1680572729DC5BE900322A72 /* SF-Mono-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1680571B29DC5BE900322A72 /* SF-Mono-LightItalic.otf */; };
+		1680572829DC5BE900322A72 /* SF-Mono-Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1680571C29DC5BE900322A72 /* SF-Mono-Heavy.otf */; };
+		1680572929DC5BE900322A72 /* SF-Mono-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1680571D29DC5BE900322A72 /* SF-Mono-BoldItalic.otf */; };
+		1680572A29DC5BE900322A72 /* SF-Mono-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1680571E29DC5BE900322A72 /* SF-Mono-Bold.otf */; };
+		1680572B29DC5BE900322A72 /* SF-Mono-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1680571F29DC5BE900322A72 /* SF-Mono-Medium.otf */; };
+		1680572C29DC5BE900322A72 /* SF-Mono-HeavyItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1680572029DC5BE900322A72 /* SF-Mono-HeavyItalic.otf */; };
+		16BB789029E15186004302D3 /* Questions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BB788F29E15186004302D3 /* Questions.swift */; };
+		16BB789329E15340004302D3 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BB789229E15340004302D3 /* Question.swift */; };
+		16E8CE8329DBE1E000AE3CD8 /* SF-Compact.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 16E8CE8129DBE1E000AE3CD8 /* SF-Compact.ttf */; };
+		16E8CE8429DBE1E000AE3CD8 /* SF-Compact-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 16E8CE8229DBE1E000AE3CD8 /* SF-Compact-Italic.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		16082D1B29D8299D00DDA7CC /* Dewa AC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dewa AC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		16082D1E29D8299D00DDA7CC /* Dewa_ACApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dewa_ACApp.swift; sourceTree = "<group>"; };
+		16082D2029D8299D00DDA7CC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		16082D2229D8299E00DDA7CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		16082D2529D8299E00DDA7CC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		166DAA6629DC6449008A0A33 /* WinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinView.swift; sourceTree = "<group>"; };
+		166DAA6829DC6DD4008A0A33 /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
+		1680570329DC5A9B00322A72 /* SF-Compact-Rounded-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Compact-Rounded-Bold.otf"; sourceTree = "<group>"; };
+		1680570429DC5A9B00322A72 /* SF-Compact-Rounded-Ultralight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Compact-Rounded-Ultralight.otf"; sourceTree = "<group>"; };
+		1680570529DC5A9B00322A72 /* SF-Compact-Rounded-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Compact-Rounded-Black.otf"; sourceTree = "<group>"; };
+		1680570629DC5A9B00322A72 /* SF-Compact-Rounded-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Compact-Rounded-Light.otf"; sourceTree = "<group>"; };
+		1680570729DC5A9B00322A72 /* SF-Compact-Rounded-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Compact-Rounded-Regular.otf"; sourceTree = "<group>"; };
+		1680570829DC5A9B00322A72 /* SF-Compact-Rounded-Heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Compact-Rounded-Heavy.otf"; sourceTree = "<group>"; };
+		1680570929DC5A9B00322A72 /* SF-Compact-Rounded-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Compact-Rounded-Medium.otf"; sourceTree = "<group>"; };
+		1680570A29DC5A9B00322A72 /* SF-Compact-Rounded-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Compact-Rounded-Thin.otf"; sourceTree = "<group>"; };
+		1680570B29DC5A9B00322A72 /* SF-Compact-Rounded-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Compact-Rounded-Semibold.otf"; sourceTree = "<group>"; };
+		1680571529DC5BE900322A72 /* SF-Mono-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Mono-MediumItalic.otf"; sourceTree = "<group>"; };
+		1680571629DC5BE900322A72 /* SF-Mono-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Mono-Regular.otf"; sourceTree = "<group>"; };
+		1680571729DC5BE900322A72 /* SF-Mono-SemiboldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Mono-SemiboldItalic.otf"; sourceTree = "<group>"; };
+		1680571829DC5BE900322A72 /* SF-Mono-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Mono-Semibold.otf"; sourceTree = "<group>"; };
+		1680571929DC5BE900322A72 /* SF-Mono-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Mono-Light.otf"; sourceTree = "<group>"; };
+		1680571A29DC5BE900322A72 /* SF-Mono-RegularItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Mono-RegularItalic.otf"; sourceTree = "<group>"; };
+		1680571B29DC5BE900322A72 /* SF-Mono-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Mono-LightItalic.otf"; sourceTree = "<group>"; };
+		1680571C29DC5BE900322A72 /* SF-Mono-Heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Mono-Heavy.otf"; sourceTree = "<group>"; };
+		1680571D29DC5BE900322A72 /* SF-Mono-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Mono-BoldItalic.otf"; sourceTree = "<group>"; };
+		1680571E29DC5BE900322A72 /* SF-Mono-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Mono-Bold.otf"; sourceTree = "<group>"; };
+		1680571F29DC5BE900322A72 /* SF-Mono-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Mono-Medium.otf"; sourceTree = "<group>"; };
+		1680572029DC5BE900322A72 /* SF-Mono-HeavyItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Mono-HeavyItalic.otf"; sourceTree = "<group>"; };
+		16BB788F29E15186004302D3 /* Questions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Questions.swift; sourceTree = "<group>"; };
+		16BB789229E15340004302D3 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		16E8CE8129DBE1E000AE3CD8 /* SF-Compact.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Compact.ttf"; sourceTree = "<group>"; };
+		16E8CE8229DBE1E000AE3CD8 /* SF-Compact-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Compact-Italic.ttf"; sourceTree = "<group>"; };
+		16E8CE8529DBE21300AE3CD8 /* Dewa-AC-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Dewa-AC-Info.plist"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16082D1829D8299D00DDA7CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16082D1229D8299D00DDA7CC = {
+			isa = PBXGroup;
+			children = (
+				16082D1D29D8299D00DDA7CC /* Dewa AC */,
+				16082D1C29D8299D00DDA7CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		16082D1C29D8299D00DDA7CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16082D1B29D8299D00DDA7CC /* Dewa AC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		16082D1D29D8299D00DDA7CC /* Dewa AC */ = {
+			isa = PBXGroup;
+			children = (
+				16BB789129E15314004302D3 /* models */,
+				16E8CE8529DBE21300AE3CD8 /* Dewa-AC-Info.plist */,
+				16E8CE8029DBE0D800AE3CD8 /* font */,
+				16082D1E29D8299D00DDA7CC /* Dewa_ACApp.swift */,
+				166DAA6629DC6449008A0A33 /* WinView.swift */,
+				166DAA6829DC6DD4008A0A33 /* StartView.swift */,
+				16082D2029D8299D00DDA7CC /* ContentView.swift */,
+				16082D2229D8299E00DDA7CC /* Assets.xcassets */,
+				16082D2429D8299E00DDA7CC /* Preview Content */,
+			);
+			path = "Dewa AC";
+			sourceTree = "<group>";
+		};
+		16082D2429D8299E00DDA7CC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				16082D2529D8299E00DDA7CC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		16BB789129E15314004302D3 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				16BB788F29E15186004302D3 /* Questions.swift */,
+				16BB789229E15340004302D3 /* Question.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		16E8CE8029DBE0D800AE3CD8 /* font */ = {
+			isa = PBXGroup;
+			children = (
+				1680571E29DC5BE900322A72 /* SF-Mono-Bold.otf */,
+				1680571D29DC5BE900322A72 /* SF-Mono-BoldItalic.otf */,
+				1680571C29DC5BE900322A72 /* SF-Mono-Heavy.otf */,
+				1680572029DC5BE900322A72 /* SF-Mono-HeavyItalic.otf */,
+				1680571929DC5BE900322A72 /* SF-Mono-Light.otf */,
+				1680571B29DC5BE900322A72 /* SF-Mono-LightItalic.otf */,
+				1680571F29DC5BE900322A72 /* SF-Mono-Medium.otf */,
+				1680571529DC5BE900322A72 /* SF-Mono-MediumItalic.otf */,
+				1680571629DC5BE900322A72 /* SF-Mono-Regular.otf */,
+				1680571A29DC5BE900322A72 /* SF-Mono-RegularItalic.otf */,
+				1680571829DC5BE900322A72 /* SF-Mono-Semibold.otf */,
+				1680571729DC5BE900322A72 /* SF-Mono-SemiboldItalic.otf */,
+				1680570529DC5A9B00322A72 /* SF-Compact-Rounded-Black.otf */,
+				1680570329DC5A9B00322A72 /* SF-Compact-Rounded-Bold.otf */,
+				1680570829DC5A9B00322A72 /* SF-Compact-Rounded-Heavy.otf */,
+				1680570629DC5A9B00322A72 /* SF-Compact-Rounded-Light.otf */,
+				1680570929DC5A9B00322A72 /* SF-Compact-Rounded-Medium.otf */,
+				1680570729DC5A9B00322A72 /* SF-Compact-Rounded-Regular.otf */,
+				1680570B29DC5A9B00322A72 /* SF-Compact-Rounded-Semibold.otf */,
+				1680570A29DC5A9B00322A72 /* SF-Compact-Rounded-Thin.otf */,
+				1680570429DC5A9B00322A72 /* SF-Compact-Rounded-Ultralight.otf */,
+				16E8CE8229DBE1E000AE3CD8 /* SF-Compact-Italic.ttf */,
+				16E8CE8129DBE1E000AE3CD8 /* SF-Compact.ttf */,
+			);
+			path = font;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		16082D1A29D8299D00DDA7CC /* Dewa AC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16082D2929D8299E00DDA7CC /* Build configuration list for PBXNativeTarget "Dewa AC" */;
+			buildPhases = (
+				16082D1729D8299D00DDA7CC /* Sources */,
+				16082D1829D8299D00DDA7CC /* Frameworks */,
+				16082D1929D8299D00DDA7CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dewa AC";
+			productName = "Dewa AC";
+			productReference = 16082D1B29D8299D00DDA7CC /* Dewa AC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		16082D1329D8299D00DDA7CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					16082D1A29D8299D00DDA7CC = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 16082D1629D8299D00DDA7CC /* Build configuration list for PBXProject "Dewa AC" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 16082D1229D8299D00DDA7CC;
+			productRefGroup = 16082D1C29D8299D00DDA7CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				16082D1A29D8299D00DDA7CC /* Dewa AC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		16082D1929D8299D00DDA7CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1680572C29DC5BE900322A72 /* SF-Mono-HeavyItalic.otf in Resources */,
+				1680572729DC5BE900322A72 /* SF-Mono-LightItalic.otf in Resources */,
+				1680572529DC5BE900322A72 /* SF-Mono-Light.otf in Resources */,
+				1680572929DC5BE900322A72 /* SF-Mono-BoldItalic.otf in Resources */,
+				16E8CE8329DBE1E000AE3CD8 /* SF-Compact.ttf in Resources */,
+				1680571329DC5A9B00322A72 /* SF-Compact-Rounded-Thin.otf in Resources */,
+				1680572329DC5BE900322A72 /* SF-Mono-SemiboldItalic.otf in Resources */,
+				1680572B29DC5BE900322A72 /* SF-Mono-Medium.otf in Resources */,
+				1680572129DC5BE900322A72 /* SF-Mono-MediumItalic.otf in Resources */,
+				1680572A29DC5BE900322A72 /* SF-Mono-Bold.otf in Resources */,
+				1680571029DC5A9B00322A72 /* SF-Compact-Rounded-Regular.otf in Resources */,
+				1680570C29DC5A9B00322A72 /* SF-Compact-Rounded-Bold.otf in Resources */,
+				1680570D29DC5A9B00322A72 /* SF-Compact-Rounded-Ultralight.otf in Resources */,
+				1680570F29DC5A9B00322A72 /* SF-Compact-Rounded-Light.otf in Resources */,
+				1680572229DC5BE900322A72 /* SF-Mono-Regular.otf in Resources */,
+				1680570E29DC5A9B00322A72 /* SF-Compact-Rounded-Black.otf in Resources */,
+				1680572429DC5BE900322A72 /* SF-Mono-Semibold.otf in Resources */,
+				16E8CE8429DBE1E000AE3CD8 /* SF-Compact-Italic.ttf in Resources */,
+				16082D2629D8299E00DDA7CC /* Preview Assets.xcassets in Resources */,
+				1680571229DC5A9B00322A72 /* SF-Compact-Rounded-Medium.otf in Resources */,
+				1680571429DC5A9B00322A72 /* SF-Compact-Rounded-Semibold.otf in Resources */,
+				1680572629DC5BE900322A72 /* SF-Mono-RegularItalic.otf in Resources */,
+				1680571129DC5A9B00322A72 /* SF-Compact-Rounded-Heavy.otf in Resources */,
+				16082D2329D8299E00DDA7CC /* Assets.xcassets in Resources */,
+				1680572829DC5BE900322A72 /* SF-Mono-Heavy.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16082D1729D8299D00DDA7CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16BB789029E15186004302D3 /* Questions.swift in Sources */,
+				166DAA6729DC6449008A0A33 /* WinView.swift in Sources */,
+				16082D2129D8299D00DDA7CC /* ContentView.swift in Sources */,
+				16BB789329E15340004302D3 /* Question.swift in Sources */,
+				16082D1F29D8299D00DDA7CC /* Dewa_ACApp.swift in Sources */,
+				166DAA6929DC6DD4008A0A33 /* StartView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		16082D2729D8299E00DDA7CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		16082D2829D8299E00DDA7CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		16082D2A29D8299E00DDA7CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Dewa AC/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Dewa-AC-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alita.Dewa-AC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		16082D2B29D8299E00DDA7CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Dewa AC/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Dewa-AC-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alita.Dewa-AC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16082D1629D8299D00DDA7CC /* Build configuration list for PBXProject "Dewa AC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16082D2729D8299E00DDA7CC /* Debug */,
+				16082D2829D8299E00DDA7CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16082D2929D8299E00DDA7CC /* Build configuration list for PBXNativeTarget "Dewa AC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16082D2A29D8299E00DDA7CC /* Debug */,
+				16082D2B29D8299E00DDA7CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 16082D1329D8299D00DDA7CC /* Project object */;
+}
