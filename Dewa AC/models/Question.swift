@@ -8,7 +8,7 @@
 import Foundation
 
 
-class Question : ObservableObject, Identifiable{
+class Question : ObservableObject{
     @Published var id = UUID().uuidString
     @Published var soal : String
     @Published var jawaban: Int

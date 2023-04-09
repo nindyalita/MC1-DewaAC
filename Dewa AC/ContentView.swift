@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
+    
     let dispatchQueue = DispatchQueue(label: "update", qos: .background)
     
     @StateObject var questions : Questions
@@ -36,7 +37,6 @@ struct ContentView: View {
             }
             
             VStack{
-                
                 Spacer()
                 Button("Replay"){
                     questions.randomQuestions()

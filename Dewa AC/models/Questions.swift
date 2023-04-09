@@ -19,7 +19,6 @@ class Questions : ObservableObject{
         var tempAnswers: [Int] = []
         
         for _ in 1...16 {
-            
             var temp = generateOneQuestion()
             
             while tempAnswers.contains(temp.hasil){
@@ -43,10 +42,5 @@ class Questions : ObservableObject{
         
         return (str, hasil)
         
-    }
-    
-   
-    func setShowingOf(item: Question){
-        item.isShowing = false
     }
 }
