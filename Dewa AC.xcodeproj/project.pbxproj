@@ -106,13 +106,11 @@
 		16082D1D29D8299D00DDA7CC /* Dewa AC */ = {
 			isa = PBXGroup;
 			children = (
+				162C6EB929E3AC4800D40CE2 /* View */,
 				16BB789129E15314004302D3 /* models */,
 				16E8CE8529DBE21300AE3CD8 /* Dewa-AC-Info.plist */,
 				16E8CE8029DBE0D800AE3CD8 /* font */,
 				16082D1E29D8299D00DDA7CC /* Dewa_ACApp.swift */,
-				166DAA6629DC6449008A0A33 /* WinView.swift */,
-				166DAA6829DC6DD4008A0A33 /* StartView.swift */,
-				16082D2029D8299D00DDA7CC /* ContentView.swift */,
 				16082D2229D8299E00DDA7CC /* Assets.xcassets */,
 				16082D2429D8299E00DDA7CC /* Preview Content */,
 			);
@@ -125,6 +123,16 @@
 				16082D2529D8299E00DDA7CC /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		162C6EB929E3AC4800D40CE2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				166DAA6629DC6449008A0A33 /* WinView.swift */,
+				16082D2029D8299D00DDA7CC /* ContentView.swift */,
+				166DAA6829DC6DD4008A0A33 /* StartView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		16BB789129E15314004302D3 /* models */ = {

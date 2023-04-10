@@ -110,13 +110,9 @@ struct ContentView: View {
                             return false
                     }
                     
-//                    if item.isShowing {
-//                        Text("Render")
-//                    }
+                    }
                     
                 }
-                
-                
                 
             }
         }
@@ -129,7 +125,7 @@ struct CardQuestionView : View{
     var body: some View{
         ZStack{
             Text(question.soal)
-                .font(.custom("SFMono-Semibold", size: 20))
+                .font(.custom("SFMono-Semibold", size: 17))
                 .fontWeight(.bold)
                 .foregroundColor(.white)
         }
